@@ -1,3 +1,18 @@
+### This file is designed for interactive coding.
+### Load it via source("my_path/my_subdirectory/nonwear_functions.R")
+
+### The helper functions will be loaded as hidden objects,
+### and the `analyze_wear` function will be made available
+
+### Examples:
+#   source("my_path/my_subdirectory/nonwear_functions.R")
+#   mydata <- data.table::fread("my_path/my_subdirectory/sample_nonwear_data.csv")
+#   mydata$is_wear <- analyze_wear(mydata$sdvm, 1, TRUE, FALSE)
+#   mydata$is_nonwear <- analyze_wear(mydata$sdvm, 1, FALSE, TRUE)
+#   mydata$wear_status <- analyze_wear(mydata$sdvm, 1, "wear", "non-wear")
+#   View(mydata)
+
+
 # Helper Functions --------------------------------------------------------
 
 
